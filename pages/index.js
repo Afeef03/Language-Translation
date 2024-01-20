@@ -1,4 +1,6 @@
 import { Footer, Navbar } from '../components';
+import ImageGenerator from '../components/ImageGenerator/Index';
+import Loader from '../components/Loader';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
 const Home = () => (
@@ -22,6 +24,8 @@ const Home = () => (
       <Feedback />
     </div>
     <Footer />
+    {/* <ImageGenerator /> */}
+    {/* <Loader /> */}
   </div>
 );
 

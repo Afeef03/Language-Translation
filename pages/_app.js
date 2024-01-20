@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import 'regenerator-runtime/runtime'
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => (
